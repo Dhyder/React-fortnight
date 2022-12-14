@@ -12,13 +12,13 @@ const App = () => {
             <Navbar />
             <Header />
         </div>
-        {/* <Brand/>
+        <Brand/>
         <Fortnight/>
         <Features/>
         <Possibility/>
         <CTA/>
         <Blog/>
-        <Footer/> */}
+        <Footer/>
     </div>
   )
 }

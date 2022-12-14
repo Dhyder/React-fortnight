@@ -8,10 +8,9 @@ const Header = () => {
     <div className="fortnight__header section__padding" id='home'>
       <div className="fortnight__header-content">
         <h1 className="gradient__text">
-          Discovering Something Amazing With Fortnight with Open AI
+          Discovering Something Amazing With Fortnight Open AI
         </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsum amet earum, illo debitis vitae pariatur minima cumque commodi saepe! Vitae voluptas, eaque ducimus pariatur assumenda nostrum suscipit. Ab, aut?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsum amet earum, illo debitis vitae pariatur minima cumque commodi saepe! Vitae voluptas, eaque ducimus pariatur assumenda nostrum suscipit. Ab, aut?
         </p>
         <div className="fortnight__header-content__input">
           <input type="email" name="" id="" placeholder='Your Email Address' required />
@@ -21,10 +20,10 @@ const Header = () => {
           <img src={people} alt='people'/>
           <p>1,600 people requested access in the last 24 hours</p>
         </div>
-        <div className="fortnight__header-image">
+      </div>
+      <div className="fortnight__header-image">
           <img src={ai} alt="ai" />
         </div>
-      </div>
     </div>
   )
 }
